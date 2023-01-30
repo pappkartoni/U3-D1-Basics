@@ -1,7 +1,9 @@
-// This some funky image innit
+import {Component} from "react"
 
-const ImageComponent = (props) => {
-    return <img className={props.class} src={props.src} alt={props.alt}/>
+class ImageComponent extends Component  {
+    render() {
+        return <img className={this.props.class} src={this.props.src} alt={this.props.alt}/>
+    }
 }
 
 export default ImageComponent
