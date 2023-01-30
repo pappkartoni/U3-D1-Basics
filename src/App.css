@@ -25,6 +25,16 @@
   border: 1px solid hotpink;
   color: hotpink;
   font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-compo:hover {
+  background-color: bisque;
+}
+
+.btn-compo:active {
+  background-color: hotpink;
+  color: bisque;
 }
 
 .App-header {
