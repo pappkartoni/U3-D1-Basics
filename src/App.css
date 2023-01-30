@@ -13,6 +13,20 @@
   }
 }
 
+.nervous-image {
+  animation: wiggle infinite 1s linear;
+}
+
+.btn-compo {
+  padding: 5px 10px;
+  margin-inline: 5px;
+  border-radius: 0;
+  background-color: antiquewhite;
+  border: 1px solid hotpink;
+  color: hotpink;
+  font-size: 1rem;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -34,5 +48,23 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translateX(0)
+  }
+  25% {
+    transform: translateX(-10%)
+  }
+  50% {
+    transform: translateX(0)
+  }
+  75% {
+    transform: translateX(10%)
+  }
+  100% {
+    transform: translateX(0)
   }
 }
